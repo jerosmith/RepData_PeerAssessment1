@@ -82,7 +82,7 @@ The 5-minute interval that contains the maximum number of steps is interval n° 
 
 The total number of missing values in the dataset is 2304.
 
-Create new dataset equal to original dataset but with the missing data filled in. Create a new histogram based on this new dataset, and calculate the mean and the median:
+Create new dataset equal to original dataset but with the missing data filled in. Use the mean number of steps per interval (in data table spi) to fill in the missing data. Create a new histogram based on this new dataset, and calculate the mean and the median:
 
 ```r
 # Create new dataset with the missing data filled in:
